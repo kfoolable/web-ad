@@ -81,11 +81,17 @@ body {
 .q-button {
   background-color: #d91c45;
   border-radius: 25px;
+  border: none;
   color: white;
   height: 200px;
   width: 150px;
   font-size: 20px;
   font-weight: bold;
+  transition: transform 0.2s ease;
+}
+
+.q-button:hover {
+  transform: scale(1.1);
 }
 
 .location {
