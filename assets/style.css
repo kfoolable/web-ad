@@ -4,3 +4,10 @@
   font-family: "Roboto";
 }
 
+.main-container {
+  padding: 2em;
+}
+
+.title {
+  font-size: 27px;
+}
