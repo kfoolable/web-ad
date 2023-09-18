@@ -5,9 +5,34 @@
 }
 
 .main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   padding: 2em;
 }
 
+.left-container,
+.right-container {
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.left-container {
+  flex-basis: 70%;
+}
+
+.right-container {
+  flex-basis: 30%;
+  order: 2;
+}
+
 .title {
-  font-size: 27px;
+  font-size: 20px;
+}
+
+.elderly-img {
+  float: right;
+  margin-left: 10px;
+  width: 400px;
+  height: auto;
 }
